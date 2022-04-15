@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+title: I'm Lei
+description: > # this means to ignore newlines until "baseurl:"
+  lei, lei sun, tsinghua, beijing, SARS-CoV-2, RNA secondary structure, RNA sequencing, deep learning, prismnet, 3d-vision, rna-structure.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sunlei0227.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Kui Xu # add your name
+author-img: lei.jpeg # add your photo
+about-author: kui, kui xu, tsinghua, beijing, cryo-em, density-map, a-2-net, vrmol, prismnet, 3d-vision, rna-structure. # add description
+twitter: kuixut# add your Twitter handle
+facebook: # add your Facebook handle
+github: kuixu # add your Github handle
+linkedin: # add your Linkedin handle
+email: kuixu.cs@gmail.com
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
