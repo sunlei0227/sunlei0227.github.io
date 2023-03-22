@@ -20,7 +20,7 @@ email: sunlei0227@hotmail.com
 discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+google_analytics: "359371823": # Google Analytics
 
 # Build Settings
 markdown: kramdown
